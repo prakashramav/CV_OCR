@@ -1,0 +1,115 @@
+{
+  "total_samples": 8,
+  "exact_match_accuracy_percent": 25.0,
+  "mean_character_error_rate_cer": 0.1,
+  "plate_detection_precision": 1.0,
+  "plate_detection_recall": 1.0,
+  "plate_detection_f1": 1.0,
+  "mean_iou": 0.808,
+  "mean_pipeline_latency_ms": 385.1,
+  "pipeline_fps": 2.6,
+  "character_confusion_pairs": {
+    "2->Z": 1,
+    "0->O": 5,
+    "1->I": 1,
+    "3->B": 1
+  },
+  "detailed_results": [
+    {
+      "filename": "sample_01_MH12DE1433.jpg",
+      "ground_truth": "MH12DE1433",
+      "predicted": "MH1ZDE1433",
+      "exact_match": false,
+      "edit_distance": 1,
+      "cer": 0.1,
+      "iou": 0.794,
+      "ocr_confidence": 0.891,
+      "validation_status": "VALID_INDIAN",
+      "latency_ms": 411.9
+    },
+    {
+      "filename": "sample_02_DL01AB1234.jpg",
+      "ground_truth": "DL01AB1234",
+      "predicted": "DLOIAB1234",
+      "exact_match": false,
+      "edit_distance": 2,
+      "cer": 0.2,
+      "iou": 0.839,
+      "ocr_confidence": 0.929,
+      "validation_status": "SUSPICIOUS_PARTIAL",
+      "latency_ms": 407.8
+    },
+    {
+      "filename": "sample_03_KA03MN4567.jpg",
+      "ground_truth": "KA03MN4567",
+      "predicted": "KAOBMN4567",
+      "exact_match": false,
+      "edit_distance": 2,
+      "cer": 0.2,
+      "iou": 0.763,
+      "ocr_confidence": 0.675,
+      "validation_status": "SUSPICIOUS_PARTIAL",
+      "latency_ms": 408.3
+    },
+    {
+      "filename": "sample_04_TS09UB5678.jpg",
+      "ground_truth": "TS09UB5678",
+      "predicted": "TSO9UB5678",
+      "exact_match": false,
+      "edit_distance": 1,
+      "cer": 0.1,
+      "iou": 0.805,
+      "ocr_confidence": 0.948,
+      "validation_status": "SUSPICIOUS_PARTIAL",
+      "latency_ms": 412.6
+    },
+    {
+      "filename": "sample_05_22BH1234AA.jpg",
+      "ground_truth": "22BH1234AA",
+      "predicted": "22BH1234AA",
+      "exact_match": true,
+      "edit_distance": 0,
+      "cer": 0.0,
+      "iou": 0.766,
+      "ocr_confidence": 0.988,
+      "validation_status": "VALID_BHARAT_SERIES",
+      "latency_ms": 227.2
+    },
+    {
+      "filename": "sample_06_GJ01XY9876.jpg",
+      "ground_truth": "GJ01XY9876",
+      "predicted": "GJO1XY9876",
+      "exact_match": false,
+      "edit_distance": 1,
+      "cer": 0.1,
+      "iou": 0.848,
+      "ocr_confidence": 0.963,
+      "validation_status": "SUSPICIOUS_PARTIAL",
+      "latency_ms": 417.3
+    },
+    {
+      "filename": "sample_07_UP16BZ3344.jpg",
+      "ground_truth": "UP16BZ3344",
+      "predicted": "UP16BZ3344",
+      "exact_match": true,
+      "edit_distance": 0,
+      "cer": 0.0,
+      "iou": 0.84,
+      "ocr_confidence": 0.76,
+      "validation_status": "VALID_INDIAN",
+      "latency_ms": 390.8
+    },
+    {
+      "filename": "sample_08_TN02AQ5566.jpg",
+      "ground_truth": "TN02AQ5566",
+      "predicted": "TNO2AQ5566",
+      "exact_match": false,
+      "edit_distance": 1,
+      "cer": 0.1,
+      "iou": 0.811,
+      "ocr_confidence": 0.741,
+      "validation_status": "SUSPICIOUS_PARTIAL",
+      "latency_ms": 404.5
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "image_path": "datasets/sample_plates/sample_01_MH12DE1433.jpg",
+    "filename": "sample_01_MH12DE1433.jpg",
+    "ground_truth_text": "MH12DE1433",
+    "vehicle_type": "car",
+    "state": "Maharashtra",
+    "plate_bbox": [
+      15,
+      10,
+      265,
+      70
+    ],
+    "image_width": 280,
+    "image_height": 80
+  },
+  {
+    "image_path": "datasets/sample_plates/sample_02_DL01AB1234.jpg",
+    "filename": "sample_02_DL01AB1234.jpg",
+    "ground_truth_text": "DL01AB1234",
+    "vehicle_type": "car",
+    "state": "Delhi",
+    "plate_bbox": [
+      15,
+      10,
+      265,
+      70
+    ],
+    "image_width": 280,
+    "image_height": 80
+  },
+  {
+    "image_path": "datasets/sample_plates/sample_03_KA03MN4567.jpg",
+    "filename": "sample_03_KA03MN4567.jpg",
+    "ground_truth_text": "KA03MN4567",
+    "vehicle_type": "motorcycle",
+    "state": "Karnataka",
+    "plate_bbox": [
+      15,
+      10,
+      265,
+      70
+    ],
+    "image_width": 280,
+    "image_height": 80
+  },
+  {
+    "image_path": "datasets/sample_plates/sample_04_TS09UB5678.jpg",
+    "filename": "sample_04_TS09UB5678.jpg",
+    "ground_truth_text": "TS09UB5678",
+    "vehicle_type": "bus",
+    "state": "Telangana",
+    "plate_bbox": [
+      15,
+      10,
+      265,
+      70
+    ],
+    "image_width": 280,
+    "image_height": 80
+  },
+  {
+    "image_path": "datasets/sample_plates/sample_05_22BH1234AA.jpg",
+    "filename": "sample_05_22BH1234AA.jpg",
+    "ground_truth_text": "22BH1234AA",
+    "vehicle_type": "car",
+    "state": "Bharat Series",
+    "plate_bbox": [
+      15,
+      10,
+      265,
+      70
+    ],
+    "image_width": 280,
+    "image_height": 80
+  },
+  {
+    "image_path": "datasets/sample_plates/sample_06_GJ01XY9876.jpg",
+    "filename": "sample_06_GJ01XY9876.jpg",
+    "ground_truth_text": "GJ01XY9876",
+    "vehicle_type": "car",
+    "state": "Gujarat",
+    "plate_bbox": [
+      15,
+      10,
+      265,
+      70
+    ],
+    "image_width": 280,
+    "image_height": 80
+  },
+  {
+    "image_path": "datasets/sample_plates/sample_07_UP16BZ3344.jpg",
+    "filename": "sample_07_UP16BZ3344.jpg",
+    "ground_truth_text": "UP16BZ3344",
+    "vehicle_type": "truck",
+    "state": "Uttar Pradesh",
+    "plate_bbox": [
+      15,
+      10,
+      265,
+      70
+    ],
+    "image_width": 280,
+    "image_height": 80
+  },
+  {
+    "image_path": "datasets/sample_plates/sample_08_TN02AQ5566.jpg",
+    "filename": "sample_08_TN02AQ5566.jpg",
+    "ground_truth_text": "TN02AQ5566",
+    "vehicle_type": "bus",
+    "state": "Tamil Nadu",
+    "plate_bbox": [
+      15,
+      10,
+      265,
+      70
+    ],
+    "image_width": 280,
+    "image_height": 80
+  }
+]
